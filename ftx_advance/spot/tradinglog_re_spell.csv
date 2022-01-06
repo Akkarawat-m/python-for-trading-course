@@ -1,0 +1,6 @@
+id,timestamp,time,pair,side,price,qty,fee,timeseries,bot_name,subaccount,cost
+6019500579,2022-01-05,18:37:05,SPELL/USD,buy,0.02048,300.0,0.0,re_spell,bot_test_2,6.144
+6019573305,2022-01-05,18:41:24,SPELL/USD,sell,0.020645,200.0,0.0,re_spell,bot_test_2,4.1290000000000004
+6021150054,2022-01-05,20:23:53,SPELL/USD,sell,0.0209175,200.0,0.0,re_spell,bot_test_2,4.1834999999999996
+6021851624,2022-01-05,21:17:57,SPELL/USD,buy,0.020425,300.0,0.0,re_spell,bot_test_2,6.1274999999999995
+6022726582,2022-01-05,22:02:35,SPELL/USD,sell,0.020675,200.0,0.0,re_spell,bot_test_2,4.135

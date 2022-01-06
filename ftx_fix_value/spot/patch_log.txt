@@ -1,0 +1,11 @@
+27/12/2021
+- Update log path
+
+28/12/2021
+- Update order 
+
+30/12/2021
+- update order execution process ()
+
+6/1/2022
+- Final cleanup

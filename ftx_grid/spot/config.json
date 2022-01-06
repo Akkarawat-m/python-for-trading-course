@@ -1,0 +1,15 @@
+{
+    "bot_id": null,
+    "user_id": null,
+    "api_key": "",
+    "api_secret": "",
+    "subaccount": "",
+    "bot_name": "bot_test_grid_step",
+    "pair": "STEP/USD",
+    "asset_name": "STEP",
+    "qoute_currency": "USD",
+    "up_zone": 0.625,
+    "low_zone": 0.25,
+    "capital": 1000,
+    "grid_qty": 500
+}

@@ -1,0 +1,9 @@
+1640521213 | 1 | Bot Started 
+1640628375 | 1 | Bot Started 
+1640628382 | 1 | Bot Started 
+1640809708 | 1 | Bot Started 
+1640817440 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640870987 | 1 | Bot Started 
+1641396210 | 1 | Bot Started 
+1641396216 | 999 | module 'trading' has no attribute 'get_rebalance_signal' 
+1641396443 | 1 | Bot Started 

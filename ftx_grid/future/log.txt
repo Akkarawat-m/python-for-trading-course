@@ -1,0 +1,11 @@
+1640807505 | 1 | Bot Started 
+1640807510 | 999 | ftx GET https://ftx.com/api/coins 
+1641443795 | 1 | Bot Started 
+1641456420 | 1 | Bot Started 
+1641456427 | 999 | ftx {"success":false,"error":"Account does not have enough margin for order."} 
+1641456582 | 1 | Bot Started 
+1641457536 | 1 | Bot Started 
+1641457636 | 1 | Bot Started 
+1641459438 | 1 | Bot Started 
+1641459668 | 1 | Bot Started 
+1641460086 | 1 | Bot Started 

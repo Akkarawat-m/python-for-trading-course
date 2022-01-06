@@ -1,0 +1,14 @@
+{
+    "bot_id": null,
+    "user_id": null,
+    "api_key": "",
+    "api_secret": "",
+    "subaccount": "",
+    "bot_name": "",
+    "pair": "SPELL/USD",
+    "asset_name": "SPELL",
+    "qoute_currency": "USD",
+    "rebalance_target_value": "500",
+    "rebalance_minimum_range": "5",
+    "rebalance_signal" : "BolliongerBands"
+}

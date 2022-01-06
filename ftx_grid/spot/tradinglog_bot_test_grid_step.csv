@@ -1,0 +1,17 @@
+id,timestamp,time,pair,side,price,qty,fee,timeseries,bot_name,subaccount,cost
+5867099158,2021-12-27,23:53:52,STEP/USD,buy,0.444,1174.0,0.0,bot_test_grid_step,bot_test_grid,521.256
+5867414739,2021-12-28,00:17:20,STEP/USD,sell,0.447,13.0,0.0,bot_test_grid_step,bot_test_grid,5.811
+5867510149,2021-12-28,00:23:20,STEP/USD,buy,0.446,6.4,0.0,bot_test_grid_step,bot_test_grid,2.8544
+5867559823,2021-12-28,00:25:15,STEP/USD,sell,0.447,6.4,0.0,bot_test_grid_step,bot_test_grid,2.8608000000000002
+5867641135,2021-12-28,00:29:30,STEP/USD,sell,0.448,6.5,0.0,bot_test_grid_step,bot_test_grid,2.912
+5867657663,2021-12-28,00:30:35,STEP/USD,sell,0.449,6.5,0.0,bot_test_grid_step,bot_test_grid,2.9185
+5867670499,2021-12-28,00:31:20,STEP/USD,sell,0.4505,6.4,0.0,bot_test_grid_step,bot_test_grid,2.8832000000000004
+5867670815,2021-12-28,00:31:22,STEP/USD,sell,0.4505,0.1,0.0,bot_test_grid_step,bot_test_grid,0.04505000000000001
+5867685991,2021-12-28,00:32:21,STEP/USD,sell,0.453,19.6,0.0,bot_test_grid_step,bot_test_grid,8.8788
+5867730655,2021-12-28,00:35:11,STEP/USD,sell,0.4545,6.5,0.0,bot_test_grid_step,bot_test_grid,2.95425
+5867799055,2021-12-28,00:37:59,STEP/USD,buy,0.4525,6.4,0.0,bot_test_grid_step,bot_test_grid,2.8960000000000004
+5867837779,2021-12-28,00:40:21,STEP/USD,buy,0.452,6.5,0.0,bot_test_grid_step,bot_test_grid,2.938
+5867841139,2021-12-28,00:40:31,STEP/USD,buy,0.4505,6.5,0.0,bot_test_grid_step,bot_test_grid,2.9282500000000002
+5914251534,2021-12-30,03:12:26,STEP/USD,buy,0.3435,697.9,0.0,bot_test_grid_step,bot_test_grid,239.72865000000002
+5914292422,2021-12-30,03:15:42,STEP/USD,sell,0.3445,3.1,0.0,bot_test_grid_step,bot_test_grid,1.06795
+5914965505,2021-12-30,04:04:29,STEP/USD,buy,0.343,6.4,0.0,bot_test_grid_step,bot_test_grid,2.1952000000000003

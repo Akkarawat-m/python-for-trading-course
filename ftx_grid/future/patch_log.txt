@@ -1,0 +1,10 @@
+27/12/2021
+- Beta Release
+
+29/12/2021
+- rewrite order excecution process
+- recheck error code process
+
+6/1/2022
+- fix grid zone calculation
+- fix grid order execution process

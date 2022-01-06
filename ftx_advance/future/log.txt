@@ -1,0 +1,40 @@
+1640321982 | 1 | Bot Started 
+1640323887 | 999 | list index out of range 
+1640412543 | 1 | Bot Started 
+1640412553 | 999 | list index out of range 
+1640412566 | 999 | name 'pair' is not defined 
+1640412701 | 1 | Bot Started 
+1640412704 | 999 | name 'pair' is not defined 
+1640412718 | 999 | name 'pair' is not defined 
+1640412731 | 999 | name 'pair' is not defined 
+1640412898 | 1 | Bot Started 
+1640413989 | 1 | Bot Started 
+1640415702 | 999 | get_pending_sell() missing 1 required positional argument: 'pair' 
+1640415853 | 999 | get_pending_sell() missing 1 required positional argument: 'pair' 
+1640415872 | 999 | get_pending_sell() missing 1 required positional argument: 'pair' 
+1640415891 | 999 | get_pending_sell() missing 1 required positional argument: 'pair' 
+1640418223 | 999 | list index out of range 
+1640421230 | 999 | get_pending_sell() missing 1 required positional argument: 'pair' 
+1640426138 | 999 | list index out of range 
+1640429162 | 1 | Bot Started 
+1640429639 | 999 | list index out of range 
+1640430606 | 999 | ftx GET https://ftx.com/api/fills?market=GALA-PERP 
+1640430962 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640439813 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640440874 | 999 | ftx GET https://ftx.com/api/markets/GALA-PERP 
+1640441502 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640443238 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640446130 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640449661 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640454397 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640457388 | 999 | ftx GET https://ftx.com/api/fills?market=GALA-PERP 
+1640465538 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640469487 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640474415 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640481687 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640486484 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640489669 | 999 | ftx GET https://ftx.com/api/wallet/balances 
+1640490628 | 401 | Bot stopped due to credential error 
+1640870878 | 1 | Bot Started 
+1640870911 | 1 | Bot Started 
+1640870941 | 1 | Bot Started 

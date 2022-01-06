@@ -1,0 +1,16 @@
+{
+    "bot_id": null,
+    "user_id": null,
+    "api_key": "",
+    "api_secret": "",
+    "subaccount": "",
+    "bot_name": "bot_test_grid_fu_sol",
+    "pair": "SOL-PERP",
+    "asset_name": "SOL-PERP",
+    "qoute_currency": "USD",
+    "up_zone": 240,
+    "low_zone": 140,
+    "capital": 500,
+    "leverage": 2,
+    "grid_qty": 400
+}

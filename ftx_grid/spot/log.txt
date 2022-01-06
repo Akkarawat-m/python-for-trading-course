@@ -1,0 +1,5 @@
+1640808719 | 1 | Bot Started 
+1641459739 | 1 | Bot Started 
+1641459745 | 999 | ftx {"success":false,"error":"Not enough balances"} 
+1641460050 | 1 | Bot Started 
+1641460057 | 999 | ftx {"success":false,"error":"Not enough balances"} 

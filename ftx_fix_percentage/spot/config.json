@@ -1,0 +1,13 @@
+{
+    "bot_id": null,
+    "user_id": null,
+    "api_key": "",
+    "api_secret": "",
+    "subaccount": "bot_test_2",
+    "bot_name": "re_spell",
+    "pair": "SPELL/USD",
+    "asset_name": "SPELL",
+    "qoute_currency": "USD",
+    "rebalance_target_value": "0.5",
+    "rebalance_minimum_range": "5"
+}

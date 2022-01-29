@@ -4,3 +4,18 @@
 1640809708 | 1 | Bot Started 
 1640817440 | 999 | ftx GET https://ftx.com/api/wallet/balances 
 1640870987 | 1 | Bot Started 
+1643450381 | 1 | Bot Started 
+1643450385 | 999 | ftx {"success":false,"error":"Not enough balances"} 
+1643450429 | 1 | Bot Started 
+1643450430 | 999 | '1H' 
+1643450479 | 1 | Bot Started 
+1643450480 | 999 | AverageTrueRange.__init__() missing 2 required positional arguments: 'low' and 'close' 
+1643450600 | 1 | Bot Started 
+1643450602 | 999 | index 24 is out of bounds for axis 0 with size 0 
+1643451299 | 1 | Bot Started 
+1643451303 | 999 | ftx {"success":false,"error":"Not enough balances"} 
+1643451585 | 1 | Bot Started 
+1643451587 | 999 | 'NoneType' object is not callable 
+1643451599 | 999 | 'NoneType' object is not callable 
+1643451607 | 1 | Bot Started 
+1643451611 | 999 | ftx {"success":false,"error":"Not enough balances"} 

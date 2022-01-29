@@ -6,7 +6,7 @@ from datetime import datetime
 import pytz
 import csv
 import account
-from ta.volatility import BollingerBands
+from ta.volatility import BollingerBands, AverageTrueRange
 
 def bb_trading_signal(pair, timeframe): 
     
@@ -21,7 +21,7 @@ def bb_trading_signal(pair, timeframe):
     """
     exchange = account.exchange
     
-    bars = exchange.fetch_ohlcv(pair, timeframe, limit=21) # 
+    bars = exchange.fetch_ohlcv(pair, timeframe, limit=21) # ย้อนหลังกี่แท่ง
     df = pd.DataFrame(bars[:-1], columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
 
     bb_indicator = BollingerBands(df['close'])
@@ -43,3 +43,13 @@ def bb_trading_signal(pair, timeframe):
     else:
         return print("BB_lower_band {} < Last close price {} < BB_upper_band {} : Waiting for signal".format(bb_lower_price, last_close_price, bb_upper_price))
     
+def atr_signal(pair, timeframe):
+    exchange = account.exchange
+    
+    bars = exchange.fetch_ohlcv(pair, timeframe, limit=15) # 
+    df = pd.DataFrame(bars[:-1], columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+
+    atr = AverageTrueRange(df['high'], df['low'], df['close'])
+    atr_value = atr.average_true_range().iloc[-1]
+
+    return atr_value

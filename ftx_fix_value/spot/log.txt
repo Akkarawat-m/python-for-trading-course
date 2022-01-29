@@ -19,3 +19,6 @@
 1643451599 | 999 | 'NoneType' object is not callable 
 1643451607 | 1 | Bot Started 
 1643451611 | 999 | ftx {"success":false,"error":"Not enough balances"} 
+1643452255 | 1 | Bot Started 
+1643452255 | 999 | requires `apiKey` 
+1643452265 | 999 | requires `apiKey` 

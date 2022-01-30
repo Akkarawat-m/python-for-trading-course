@@ -24,6 +24,9 @@ min_reb_range = float(config["rebalance_minimum_range"]) # ระยะห่า
 user_id = 1
 bot_id  = 1
 
+#Indicator Setting
+atr = indi.atr_signal(pair, '1h')
+
 # Order Type
 post_only = True  # Maker or Taker (วางโพซิชั่นเป็น MAKER เท่านั้นหรือไม่ True = ใช่ // Defalut = True)
 order_type = "limit" # limit, market
@@ -52,7 +55,8 @@ while True:
         Time = trading.get_time()
         total_port_value = trading.get_total_port_value(qoute_currency, asset_name)
         asset_value = trading.get_asset_value(asset_name)
-        
+
+
         # Check initail Balance
         if cash < 0.1:
             Time = int(time.time())
@@ -73,7 +77,7 @@ while True:
             print('Bot Name : {}'.format(bot_name))
             print('Your Remaining Cash : {} {}'.format(cash, qoute_currency))
             print('Your {} value: {} USD'.format(asset_name, asset_value))
-
+            print('ATR = {}'.format(atr))
             print('Your Total Port Value is : {}'.format(total_port_value))
             print("------------------------------")
             print('{} is missing'.format(asset_name))
@@ -126,7 +130,6 @@ while True:
                 fixed_value = rebalance_target_value  # Just for the sake of understanding
                 diff = abs(fixed_value - asset_value)
                 last_trade_price = trading.get_last_trade_price(pair)
-                atr_range = indi.atr_adjust(pair, '1h', fixed_value, price) 
 
                 print('Time : {}'.format(Time))
                 print('Bot Name : {}'.format(bot_name))
@@ -135,11 +138,11 @@ while True:
                 print('{} Price is {}'.format(asset_name, price))
                 print('Your {} Value is {}'.format(asset_name, asset_value))
                 print('Diff = {}'.format(str(diff)))
-                print('ATR adjust range = {}'.format(atr_range))
                 print('Last trade price is {}'.format(last_trade_price))
+                print('ATR = {}'.format(atr))
                 
         
-                if asset_value < fixed_value - min_reb_range and asset_value < fixed_value - atr_range and price < last_trade_price:
+                if asset_value < fixed_value - min_reb_range and price < last_trade_price and diff > atr:
                     print("Current {} Value less than fix value : Rebalancing -- Buy".format(asset_name))
 
                     # Recheck trading params
@@ -169,7 +172,7 @@ while True:
                         print("Your order size is {} but minimim size is {}".format(str(buy_size, min_size)))
                         print("------------------------------")
                 
-                elif asset_value > fixed_value + min_reb_range and asset_value > fixed_value + atr_range and price > last_trade_price:
+                elif asset_value > fixed_value + min_reb_range and price > last_trade_price and diff > atr:
                     print("Current {} Value more than fix value : Rebalancing -- Sell".format(asset_name))
                                 
                     # Recheck trading params

@@ -53,3 +53,18 @@ def atr_signal(pair, timeframe):
     atr_value = atr.average_true_range().iloc[-1]
 
     return atr_value
+
+def atr_adjust(pair, timeframe, fix_value, price):
+    exchange = account.exchange
+    
+    bars = exchange.fetch_ohlcv(pair, timeframe, limit=15) # 
+    df = pd.DataFrame(bars[:-1], columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+
+    atr = AverageTrueRange(df['high'], df['low'], df['close'])
+    atr_value = atr.average_true_range().iloc[-1]
+
+    atr_adjust_range = atr_value/price * fix_value
+
+    return atr_adjust_range
+
+#print(atr_adjust('BTC/USD', '4h', 10000, 38000))

@@ -67,4 +67,4 @@ def atr_adjust(pair, timeframe, fix_value, price):
 
     return atr_adjust_range
 
-#print(atr_adjust('BTC/USD', '4h', 10000, 38000))
+#print(atr_adjust('SRM/USD', '4h', 10000, 2.3))
